@@ -69,7 +69,7 @@ a {
 #cd-intro {
   position: relative;
   height: 100%;
-  background: url("../images/we are morrow1.png") no-repeat center center;
+  background: url("../images/Splash Page.png") no-repeat center center;
   background-size: cover;
 }
 #cd-intro h1 {
@@ -124,9 +124,9 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/we are morrow1.png") no-repeat center center;
+  background: url("../images/Splash page.png") no-repeat center center;
   background-size: cover;
-  
+
 }
 .no-js .cd-blurred-bg {
   display: none;
@@ -157,7 +157,7 @@ a {
 .cd-menu-trigger {
   display: inline-block;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   height: 50px;
   line-height: 10px;
@@ -227,7 +227,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #424242;
+  background: #9f360c; /*burgundy background color */
   opacity:0.9;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -257,8 +257,8 @@ a {
   display: block;
   padding: 0 10%;
   height: 100%;
-  border-bottom: 1px solid #dfdbec;
-  color: #white;
+  border-bottom: 1px solid #ffde00;
+  color: #ffde00;
   font-size: 20px;
   font-size: 1.25rem;
   font-weight: bold;
@@ -276,7 +276,8 @@ a {
   transform: translateX(-50%) translateY(-50%);
 }
 .no-touch #main-nav li a:hover {
-  background-color: #095bd4;
+  background-color: #ffde00;
+  color: #9f360c;
 }
 #main-nav li:last-child a {
   border-bottom: none;
@@ -284,7 +285,7 @@ a {
 #main-nav .cd-close-menu {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   display: inline-block;
   width: 40px;
   height: 40px;

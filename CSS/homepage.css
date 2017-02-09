@@ -5,126 +5,50 @@
 html {
     position: relative;
     min-height: 100%;
-	
+
 }
 body {
-    margin: 0 0 100px; 
+    margin: 0 0 100px;
 	background-color:white;
 	height:100%;
 	}
-	
+
 #break {
 	width: 99%;
     height: 10px;
-    background-color: #007743;
-    border: solid 1px #007743;
-    box-shadow: 0px 3px 5px 1px #007743;
+    background-color: black;
+    border: solid 1px black;
+    box-shadow: 0px 3px 5px 1px gray;
 }
 hr {
 	display: none;
 }
 /*LAYOUT*/
-#TSA a {
-	text-decoration: none;
-	color:white;
-	font-style: italic;
-	font-weight:bold;
+.headers {
+  color: #9f360c;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
-
-#TSA {
-	float: right;
-	width:50%;
-	padding-right:5%;
-	clear:both;
-}
-#TSA h2{
-	font-family:Roboto, 'Open Sans', sans-serif;
-	font-weight:700;
-	font-size: 3em;
-	color:white;
-	padding-left: 150px;
-	padding-bottom:0;
-	margin-bottom:0em;
-	clear:both;
-}
-#TSA p{
-	text-align: justify;
-	font-family: Roboto, 'Open Sans', sans-serif;;
-	font-size:1em;
-	padding-left: 150px;
-	padding-top:0;
-	color:white;
-	margin-top:0em;
-}
-#motto {
-	clear:both;
-	position:relative;
-	width:50%;
-	margin-top:0;
-}
-
-#motto p {
-font-family: 'Dancing Script', cursive;
-font-weight:bold;
-	padding-left:3%;
-	color:#ff9008;
-	font-size:xx-large;
-	margin-top:0;
-}
-#leftcolumn {
-	float:left;
-	width:50%;
-}
-#leftcolumn h2 {
-	font-family: Roboto, 'Open sans' , sans serif;
-	font-weight:700;
-	padding-left:3%;
-	color:#ff9008;
-}
-#leftcolumn p {
-	text-align: justify;
-	font-family:Roboto, Open sans;
-	font-size:.90em;
-	padding-left:3%;
-	color:#585858;
-}
-#leftcolumn p a {
-	text-decoration: none;
-	color:#585858;
-	font-style: italic;
-	font-weight:bold;
-}
-#leftcolumn p a:visited {
-	text-decoration:none;
-}
-#leftcolumn p a:hover {
-	text-decoration:underline;
-}
-#leftcolumn p a:active{
-	text-decoration:underline;
-}
-#rightcolumn {
-  float: right;
-  width: 50%;
-  height:517.5px;
-  
-}
-#rightcolumn img{
-	padding-left:6%;
-	padding-top:70px;
-	padding-bottom: 20px;
+.para {
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: bold;
 }
 
 
 footer {
+
     position: relative;
     left: 0;
     bottom: 0px;
     height: auto;
-    width: 99%;
+    width: 100%;
 	border-top:groove;
-	border-color:black;
+	border-color:#9f360c;
 	border-width:medium;
 	background-color:white;
 	z-index:1;
@@ -132,14 +56,14 @@ footer {
 #copyright p {
 	font-family:Roboto, Open sans;
 	padding-left:0.5%;
-	
+
 	font-size:small;
 	color:black;
 }
 #copyright a {
 	float:right;
 	z-index:1;
-	
+
 }
 #events {
 	border:hidden;
@@ -151,284 +75,18 @@ footer {
 	font-family: Roboto, 'Open Sans', sans-serif;
 	font-weight:700;
 	font-size:1.15em;
-	background-image:url("../images/Header.png");
-	
+	background-image:url("../images/Home Page.png");
+
 }
-.third-content {
-	font-family:Roboto, Open sans;
-	font-size: .75em;
-	text-align:justify;
-	padding-left:9%;
-	padding-right:1.5%;
-	
-}
+
 /*nav*/
 
-#cssmenu {
-  background: white;
-  width: 99%;
-  margin: 0 auto;
-  padding-right:25px;
-  height:44px;
-}
 
-#cssmenu #morrow{
-	margin:0;
-	float:left;
-	padding-left:15px;
-}
-#cssmenu ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  line-height: 1;
-  display: inline-block;
-  zoom: 1;
-  float:right;
-  
-}
-#cssmenu ul img {
-	clear:both;
-	padding-right:25px;
-}
-#cssmenu ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-#cssmenu ul li {
-  float:left;
-  padding: 0;
-  margin-top: 0;
-}
-#cssmenu.align-right ul li {
-  float: right;
-}
-#cssmenu.align-center ul {
-  text-align: center;
-}
-#cssmenu ul li a {
-  color: black;
-  text-decoration: none;
-  display: block;
-  padding: 15px 25px;
-  font-family:Roboto, 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  position: relative;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
-}
-#cssmenu ul li a:hover {
-  color: #ff9008;
-}
-#cssmenu ul li a:hover:before {
-  width: 100%;
-}
-#cssmenu ul li a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: -3px;
-  top: 19px;
-  height: 6px;
-  width: 6px;
-  background: #585858;
-  opacity: .5;
-}
-#cssmenu ul li a:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 0;
-  background: #585858;
-  -webkit-transition: width .25s;
-  -moz-transition: width .25s;
-  -ms-transition: width .25s;
-  -o-transition: width .25s;
-  transition: width .25s;
-}
-#cssmenu ul li.last > a:after,
-#cssmenu ul li:last-child > a:after {
-  display: none;
-}
-#cssmenu ul li.active a {
-  color: #ff9008;
-}
-#cssmenu ul li.active a:before {
-  width: 100%;
-}
-#cssmenu.align-right li.last > a:after,
-#cssmenu.align-right li:last-child > a:after {
-  display: block;
-}
-#cssmenu.align-right li:first-child a:after {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ff9008;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-}
 #header {
-	background-image: url("../images/Header.png");
-	height: 420px;
+	background-image: url("../images/Home Page.png");
+	height: 490px;
 	width: 99%;
-	
+
 	margin:  0;
-	
-}
-#slideshow {
-	background:#fff url(../images/loading.gif) no-repeat 50% 50%;
-	position: absolute;
-	margin: 0px 23%;
-	top: 101px;
-	left: -300px;
-	width: 600px;
-	height: 300px;
-}
 
-
-#sliderFrame 
-{
-    position:relative;
-    width:600px;
-    margin:0 auto; 
-	 border-width:2px;
-    border-style:solid;
-    border-bottom-color:#aaa;
-    border-right-color:#aaa;
-    border-top-color:#ddd;
-    border-left-color:#ddd;
-	border-radius:3px;
 }
-
-#slider, #slider div.sliderInner {
-    width:600px;height:300px;/* Must be the same size as the slider images */
-}
-
-#slider {
-	background:#fff url(loading.gif) repeat scroll 0% 0%;
-	position:relative;
-	margin:0 auto; /*center-aligned*/
-    transform: translate3d(0,0,0);
-    box-shadow: 0px 1px 5px #999999;
-	
-}
-
-/* image wrapper */
-#slider a.imgLink, #slider div.video {
-	z-index:2;
-	position:absolute;
-	top:0px;left:0px;border:0;padding:0;margin:0;
-	width:100%;height:100%;
-}
-#slider .video {
-	background:transparent url(video.png) no-repeat 50% 50%;
-}
-
-/* Caption styles */
-#slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
-	position:absolute;
-	width:100%;
-	height:auto;
-	padding:10px 0;
-	z-index:3;
-	overflow:hidden;
-	font-size: 0;
-}
-#slider div.mc-caption-bg 
-{
-   
-	background:Black;
-}
-#slider div.mc-caption-bg2 {
-    background:none;
-}
-#slider div.mc-caption {
-	font: bold 14px/20px Arial;
-	color:#EEE;
-	z-index:4;
-	text-align:center;
-    background:none;
-}
-#slider div.mc-caption a {
-	color:#FB0;
-}
-#slider div.mc-caption a:hover {
-	color:#DA0;
-}
-
-
-/*nav bullets*/
-#slider div.navBulletsWrapper  {
-    display:none;
-
-/* each bullet */
-#slider div.navBulletsWrapper div 
-{
-    width:11px; height:11px;
-    font-size:0;color:black;
-    background:transparent url(bullet.png) no-repeat 0 0;
-    display:inline-block; *display:inline; zoom:1;
-    overflow:hidden;cursor:pointer;
-    margin:0 6px;
-}
-
-#slider div.navBulletsWrapper div.active {background-position:0 -11px;}
-
-
-/*  Other things */
-
-#slider div.loading 
-{
-    width:100%; height:100%;
-    background:transparent url(loading.gif) no-repeat 50% 50%;
-    filter: alpha(opacity=60);
-    opacity:0.6;
-    position:absolute;
-    left:0;
-    top:0; 
-    z-index:9;
-}
-
-#slider img, #slider>b, #slider a>b {
-	position:absolute; border:none; display:none;
-}
-
-#slider div.sliderInner {
-	overflow:hidden; 
-	-webkit-transform: rotate(0.000001deg);
-	position:absolute; top:0; left:0;
-}
-
-#slider>a, #slider video, #slider audio {display:none;}
-#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}

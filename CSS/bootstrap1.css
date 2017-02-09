@@ -2937,8 +2937,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse {
   background-color: black;
-  border-color: #080808;
-}
+  border-color: black}
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
@@ -3046,17 +3045,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .row:before,
 .row:after,
 .form-horizontal .form-group:before,
-.form-horizontal .form-group:after,
-.nav:before,
-.nav:after,
-.navbar:before,
-.navbar:after,
-.navbar-header:before,
-.navbar-header:after,
-.navbar-collapse:before,
-.navbar-collapse:after {
+.form-horizontal .form-group:after {
   content: " ";
-  
+  display: table;
   margin-bottom:10px;
 }
 .clearfix:after,
@@ -3068,7 +3059,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar:after,
 .navbar-header:after,
 .navbar-collapse:after {
-  clear: both;
+ 
 }
 .center-block {
   display: block;
@@ -3102,4 +3093,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .affix {
   position: fixed;
+}
+
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after {
+  content: " ";
+    margin-bottom:10px;
 }

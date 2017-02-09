@@ -5,14 +5,14 @@
 html {
     position: relative;
     min-height: 100%;
-	
+
 }
 body {
-    margin: 0 0 100px; 
-	
+    margin: 0 0 100px;
+
 	height:100%;
 	}
-	
+
 #break {
 	width: 99%;
     height: 10px;
@@ -39,14 +39,14 @@ h2 {
 }
 
 footer {
-	
+
     position: relative;
     left: 0;
     bottom: 0px;
     height: auto;
     width: 100%;
 	border-top:groove;
-	border-color:black;
+	border-color:#9f360c;
 	border-width:medium;
 	background-color:white;
 	z-index:1;
@@ -54,20 +54,20 @@ footer {
 #copyright p {
 	font-family: Roboto, Open sans;
 	padding-left:0.5%;
-	
+
 	font-size:small;
 	color:black;
 }
 #copyright a {
 	float:right;
 	z-index:1;
-	
+
 }
 
 /*nav*/
 
 #cssmenu {
-  background: white;
+  background: black;
   width: 100%;
   margin: 0 auto;
   padding-right:25px;
@@ -87,7 +87,7 @@ footer {
   display: inline-block;
   zoom: 1;
   float:right;
-  
+
 }
 #cssmenu ul img {
 	clear:both;
@@ -113,11 +113,11 @@ footer {
   text-align: center;
 }
 #cssmenu ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
-  font-family: Roboto, 'Open Sans', sans-serif;
+  font-family:Roboto, 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -129,7 +129,7 @@ footer {
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: #ff9008;
+  color: #ffde00;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -142,7 +142,7 @@ footer {
   top: 19px;
   height: 6px;
   width: 6px;
-  background: #585858;
+  background: #9f360c;
   opacity: .5;
 }
 #cssmenu ul li a:before {
@@ -153,7 +153,7 @@ footer {
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #585858;
+  background: #9f360c;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;
@@ -165,7 +165,7 @@ footer {
   display: none;
 }
 #cssmenu ul li.active a {
-  color: #ff9008;
+  color: #ffde00;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
@@ -201,10 +201,11 @@ footer {
   }
 }
 #header {
-	background-image: url("../images/members page.png");
+	background-image: url("../images/Members.png");
 	background-size: cover;
+  background-position: center;
 	height: 320px;
 	width: 100%;
 	margin:  0;
-	
+
 }
