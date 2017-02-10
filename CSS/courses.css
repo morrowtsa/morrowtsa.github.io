@@ -22,7 +22,7 @@ html {
 	    height: auto;
 	    width: 100%;
 		border-top:groove;
-		border-color:#9f360c;
+		border-color:black;
 		border-width:medium;
 		background-color:white;
 		z-index:1;
@@ -39,148 +39,14 @@ html {
 	z-index:1;
 
 }
-/*nav*/
 
-#cssmenu {
-  background: black;
-  width: 100%;
-  margin: 0 auto;
-  padding-right:25px;
-  height:44px;
-}
-
-#cssmenu #morrow{
-	margin:0;
-	float:left;
-	padding-left:15px;
-}
-#cssmenu ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  line-height: 1;
-  display: inline-block;
-  zoom: 1;
-  float:right;
-
-}
-#cssmenu ul img {
-	clear:both;
-	padding-right:25px;
-}
-#cssmenu ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-#cssmenu ul li {
-  float:left;
-  padding: 0;
-  margin-top: 0;
-}
-#cssmenu.align-right ul li {
-  float: right;
-}
-#cssmenu.align-center ul {
-  text-align: center;
-}
-#cssmenu ul li a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 15px 25px;
-  font-family:Roboto, 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  position: relative;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
-}
-#cssmenu ul li a:hover {
-  color: #ffde00;
-}
-#cssmenu ul li a:hover:before {
-  width: 100%;
-}
-#cssmenu ul li a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: -3px;
-  top: 19px;
-  height: 6px;
-  width: 6px;
-  background: #9f360c;
-  opacity: .5;
-}
-#cssmenu ul li a:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 0;
-  background: #9f360c;
-  -webkit-transition: width .25s;
-  -moz-transition: width .25s;
-  -ms-transition: width .25s;
-  -o-transition: width .25s;
-  transition: width .25s;
-}
-#cssmenu ul li.last > a:after,
-#cssmenu ul li:last-child > a:after {
-  display: none;
-}
-#cssmenu ul li.active a {
-  color: #ffde00;
-}
-#cssmenu ul li.active a:before {
-  width: 100%;
-}
-#cssmenu.align-right li.last > a:after,
-#cssmenu.align-right li:last-child > a:after {
-  display: block;
-}
-#cssmenu.align-right li:first-child a:after {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ff9008;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-}
 #header {
 	background-image: url("../images/Courses.png");
-	background-position: center;
-	height: 420px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 0;
 	width: 100%;
-
+  padding-top: 33.12%;
 	margin:  0;
 
 }
@@ -191,14 +57,14 @@ html {
 	text-align: center;
 	padding-top:0;
 	padding-bottom:0;
-	background-color: #9f360c;
-	color:#ffde00;
+	background-color: black;
+	color:white;
 	font-family:Roboto, 'Open Sans', sans-serif;
 	font-size:2em;
 
 }
 .info-top {
-	background-color: #9f360c;
+	background-color: black;
 	padding: 1em 1em;
 	border-radius:5px;
 	font-family:Roboto, 'Open Sans', sans-serif;
@@ -207,7 +73,7 @@ html {
 .info-top h3 {
 	font-size: 1.1em;
 	font-weight: 700;
-	color: #ffde00;
+	color: white;
 	font-family:Roboto, 'Open Sans', sans-serif;
 	margin: 0px;
 	text-align:center;
