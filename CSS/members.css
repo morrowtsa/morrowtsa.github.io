@@ -202,10 +202,11 @@ footer {
 }
 #header {
 	background-image: url("../images/Members.png");
-	background-size: cover;
-  background-position: center;
-	height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 0;
 	width: 100%;
+  padding-top: 33.12%;
 	margin:  0;
 
 }
