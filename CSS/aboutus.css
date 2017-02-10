@@ -2,7 +2,7 @@
 @font-face {
 	 src: url('webfont.eot');
 }
-@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=';
 /*general styling*/
 html {
     position: relative;
@@ -29,7 +29,7 @@ hr {
 	padding-top:0;
 	padding-bottom:0;
 	color:white;
-	font-family:Roboto, Open sans, sans-serif;
+	font-family:, , sans-serif;
 	background-color:black;
 }
 
@@ -61,7 +61,7 @@ footer {
 	background-color:white;
 }
 #copyright p {
-	font-family:Roboto, Open sans;
+	font-family:, ;
 	padding-left:0.5%;
 
 	font-size:small;
@@ -110,7 +110,7 @@ footer {
 .info-top h3 {
 	font-size: 1.1em;
 	font-weight: 700;
-	font-family:Roboto, Open sans, sans serif;
+	font-family:, , sans-serif;
 	color: white;
 	margin: 0px;
 	text-align:center;
@@ -125,7 +125,7 @@ footer {
 .info-bott p {
 	font-size: 0.885em;
 	font-weight: 500;
-	font-family:Roboto, Open sans, sans serif;
+	font-family: ,sans-serif;
 	color: black;
 	padding: 1.5em 0px;
 	line-height: 1.5em;
@@ -134,7 +134,7 @@ footer {
 .info-bott h5 {
 	font-size: 0.9em;
 	font-weight: 500;
-	font-family:Roboto, Open sans, sans serif;
+	font-family:, , sans-serif;
 	color: black;
 	text-align: left;
 	font-style: italic;
