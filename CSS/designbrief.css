@@ -72,6 +72,7 @@ body{
 #pic2 img {
 	width:100%;
 	height:auto;
+max-height: 400px;
 	margin: auto;
 }
 
@@ -99,6 +100,7 @@ body{
 #pic3 img {
 	width:100%;
 	height:auto;
+	max-height:400px;
 	margin: auto;
 }
 
